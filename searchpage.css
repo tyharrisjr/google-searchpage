@@ -1,0 +1,495 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*Header*/
+
+.googleLogo {
+    background-image: url(https://www.google.com/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 35px;
+    width: 90px;
+    background-position: 0 -375px;
+    margin-bottom: -5px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.googlesearchbutton {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border: 0;
+    background-color: rgb(66, 133, 244);
+    position: absolute;
+    top: 10px;
+    left: 724px;
+}
+
+.magnifying_glass {
+    width: 25px;
+    background-image: url(https://www.google.com/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -107px -55px;
+    background-size: 167px 410px;
+    width: 20px;					/*This sets the width & height of the div box that the magnifying glass sits in*/
+    height: 20px;
+    margin-left: 8px;
+    margin-bottom: 2px;
+}
+
+.header_top {
+    background-color: #f1f1f1;
+    position: relative;
+    height: 60px;
+}
+
+.header_topleft {
+    position: relative;
+}
+
+.header_bottomleft {
+    position: relative;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.searchboxform {
+    display: inline-block;
+}
+
+#searchbox {
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    color: black;
+    width: 600px;
+    height: 40px;
+    margin-left: 120px;
+    margin-top: -35px;
+    padding-left: 10px;
+}
+
+.mic_and_magnifying_glass {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: -105px;
+}
+
+#microphoneIcon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    top: -27px;
+    right: 10px;
+}
+
+.googleappsicon{
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-repeat: no-repeat;
+    background-position: -139px -45px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    float: left;
+    margin-top: 18px;
+    margin-left: 160px;
+
+}
+
+.header_topright {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: -75px;
+    margin-bottom: -20px;
+    width: 300px;
+    height: 60px;
+}
+
+#googleSignIn {
+    float: right;
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(66, 133, 244);
+    font-family: arial, sans-serif;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+    border-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header_bottom {
+    position: relative;
+    border-color: #f1f1f1;
+    border-width: 1px;
+    height: 60px;
+    border-style: solid;
+}
+
+.header_bottomleft {
+    position: relative;
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    width: 700px;
+    margin-top: 20px;
+}
+
+.all{
+    position: absolute;
+    display: inline-block;
+    left: 135px;
+    font-weight: bold;
+    color: rgb(66, 133, 244);
+}
+
+.bluerectangle{
+    display:block;
+    height: 3px;
+    width: 35px;
+    margin-top: 23px;
+    margin-left: -9px;
+    background-color: rgb(66, 133, 244);
+}
+
+.videos {
+    position: absolute;
+    display: inline-block;
+    left: 185px;
+    color: rgb(119, 119, 119);
+}
+
+.news{
+    position: absolute;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+    left: 260px;
+}
+
+.shopping{
+    position: absolute;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+    left: 330px;
+}
+
+.maps{
+    position: absolute;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+    left: 420px;
+}
+
+.more{
+    position: absolute;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+    left: 490px;
+}
+
+.searchtools {
+    position: absolute;
+    display: inline-block;
+    color: rgb(119, 119, 119);
+    left: 560px;
+}
+
+.header_bottomright {
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-right: 27px;
+    margin-top: 15px;
+    height: 30px;
+    width: 74px;
+}
+
+#googleoptionsbutton{
+    position: absolute;
+    width: 74px;
+    height: 30px;
+    background-image: url(https://qph.ec.quoracdn.net/main-qimg-a9e09e7b54c9bba55f4ae4a95ba7a764?convert_to_webp=true);
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    padding: 0;
+    border-width: 1px;
+    border-color: #ccc9c9;
+    background-position: center;
+    background-color: #f1f1f1;
+    border-style: solid;
+    border-radius: 2px;
+}
+
+
+/*Main*/
+
+.table_1 {
+    margin-bottom: 20px;
+}
+
+.row {
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+.cell_0, .cell_1, .cell_2, .cell_3, .cell_4, .cell_5, .cell_6, .cell_7, .cell_8, .cell_9 {
+    margin-bottom: 25px;
+}
+
+a:link {
+    color: #270daa;
+    text-decoration: none;
+}
+
+#results {
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    color: #808080;
+}
+
+.bluelink {
+    font-size: 18px;
+    font-family: arial, sans-serif;
+}
+
+.greentext {
+    color: green;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}
+
+.table_2 {
+    width: 595px;
+    margin-left: 130px;
+    border-width: 1px;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-color: #f1f1f1;
+    padding-left: 10px;
+}
+
+.row_1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.row_2, .row_3, .row_4 {
+    margin-bottom: 10px;
+}
+
+.row_5 {
+    margin-bottom: 20px;
+}
+
+.table_2_title {
+    color: #808080;
+    font-family: arial, sans-serif;
+    font-size: 18px;
+}
+
+.suggestedsearch {
+    color: #1a0dab;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+
+.row_2-1, .row_3-1, .row_4-1, .row_5-1 {
+    display: inline-block;
+}
+
+.row_2-2 {
+    display: inline-block;
+    margin-left: 43px;
+}
+
+.row_3-2 {
+    display: inline-block;
+    margin-left: 54px;
+}
+
+.row_4-2 {
+    display: inline-block;
+    margin-left: 14px;
+}
+
+.row_5-2 {
+    display: inline-block;
+    margin-left: 48px;
+}
+
+
+/*Footer*/
+.footer_top {
+    border-width: 2px;
+    border-bottom-style: solid;
+    border-color: rgb(228, 228, 228);
+    height: 75px;
+}
+
+.longgooglelogo {
+    margin-top: 25px;
+    margin-left: 280px;
+}
+
+.g0 {
+    background-image: url(https://www.google.com/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -24px 0;
+    width: 48px;
+    height: 29px;
+    display: inline-block;
+}
+
+.o2, .o3, .o4, .o5, .o6, .o7, .o8, .o9, .o10 {
+    background-image: url(https://www.google.com/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -75px -10px;
+    width: 18px;
+    height: 19px;
+    display: inline-block;
+}
+
+.gle{
+    background-image: url(https://www.google.com/images/nav_logo242.png);
+    background-repeat: no-repeat;
+    background-position: -96px -1px;
+    width: 71px;
+    height: 36px;
+    display: inline-block;
+    margin-bottom: -8px;
+}
+
+.pagenumbers{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 310px;
+}
+
+.num2, .num3, .num4, .num5, .num6, .num7, .num8, .num9, .num10, .next{
+    display: inline-block;
+    color: #4285f4;
+}
+
+.num1{
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    margin-left: 5px;
+}
+
+.num2{
+    margin-left: 12px;
+}
+
+.num3{
+    margin-left: 12px;
+}
+
+.num4{
+    margin-left: 10px;
+}
+
+.num5{
+    margin-left: 11px;
+}
+
+.num6{
+    margin-left: 11px;
+}
+
+.num7{
+    margin-left: 11px;
+}
+
+.num8{
+    margin-left: 11px;
+}
+
+.num9{
+    margin-left: 12px;
+}
+
+.num10{
+    margin-left: 8px;
+}
+
+.next{
+    margin-left: 53px;
+}
+
+.footer_bottom{
+    background-color: #f1f1f1;
+}
+
+.footer_bottom_top{
+    padding-top: 20px;
+    padding-left: 145px;
+}
+
+#circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(158, 158, 158);
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#address{
+    color: rgb(170, 170, 170);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    display: inline-block;
+}
+
+#preciseLocation, #learnMore{
+    color: rgb(119, 119, 119);
+}
+
+
+.footer_bottom_bottom{
+    color: rgb(119, 119, 119);
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 146px;
+    margin-bottom: 20px;
+}
+
+#help{
+    display: inline-block;
+}
+
+#sendfeedback{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+#privacy{
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+#terms{
+    display: inline-block;
+    margin-left: 30px;
+}
